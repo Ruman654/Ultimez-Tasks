@@ -3,8 +3,8 @@ function Rectangle(a,b) {
     return area
 }
 function perimeterRect(a, b) {
-    let perimeter = 2 * (a + b);
-    return perimeter;
+    let perimeter = 2 * (a + b)
+    return perimeter
 }
 let a = 5
 let b = 8
