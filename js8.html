@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dates in js</title>
+</head>
+<body>
+    <h1>dates example</h1>
+    <p id="demo"></p>
+    <button type ="button" onclick="myfunc()" >click here</button>
+    <script>function Func() {
+        //dates//
+        const Date=new Date()
+        const day = Date.getDate()
+        const month = Date.getMonth()
+        const year = Date.getFullYear()
+        const hours = Date.getHours()
+        const minutes = Date.getMinutes()
+    
+        const formattedDate= date.toLocaleDateString('en-US')
+    
+        //regex//
+        let pattern=/dog
+        let string= 'i have a dog and cat'
+        console.log(pattern.test(string))
+
+
+        let pattern =/\b[cC]\w+/g
+        string= "cat and dog are animals, cow ia another animal"
+        console.log(string.match(pattern))
+    }
+    </script>
+</body>
+</html>
